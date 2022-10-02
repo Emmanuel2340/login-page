@@ -1,0 +1,57 @@
+.login {
+  width: 500px;
+  margin: 5rem auto;
+  border: 2px solid purple;
+}
+
+form {
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 688px) {
+  .login {
+    width: 470px;
+    border: 2px solid purple;
+  }
+  form {
+    border: 1px orangered;
+  }
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+input {
+  width: 300px;
+  outline: none;
+  color: white;
+  height: 2.2rem;
+  border: none;
+  border-radius: 4px;
+  padding-left: 1px;
+  background-color: purple;
+}
+
+@media (max-width: 688px) {
+  input {
+    width: 340px;
+    border-radius: 4px;
+  }
+}
+
+.button {
+  background-color: purple;
+  margin-top: 1rem;
+  height: 2rem;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+}

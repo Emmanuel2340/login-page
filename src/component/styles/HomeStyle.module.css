@@ -1,0 +1,10 @@
+.Home {
+  height: 100vh;
+  background-color: white;
+}
+
+.Home h1 {
+  text-align: center;
+  margin: 4rem auto;
+  font-size: 3rem;
+}

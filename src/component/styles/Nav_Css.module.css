@@ -1,0 +1,37 @@
+.nav {
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+  padding: 0 3rem;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0;
+  height: 70px;
+}
+
+.nav ul button {
+  background-color: rgba(151, 23, 151, 0.853);
+  width: 80px;
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+}
+.h1 {
+  font-size: 3rem;
+  color: orangered;
+}
+
+span {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+ul li {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
