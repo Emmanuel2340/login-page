@@ -9,15 +9,14 @@ const App = () => {
 
   const onChangeShow = (name, password) => {
     if (name === "") {
-    
       setMessage({
         output: "Please your name shouldn't be empty",
-        title: "non empty value in name",
+        title: "Non empty value in name",
       });
     } else if (password === "") {
       setMessage({
         output: "Please your passwprd shouldn't be empty",
-        title: "non empty value in password",
+        title: "Non empty value in password",
       });
     } else if (password !== name) {
       setMessage({

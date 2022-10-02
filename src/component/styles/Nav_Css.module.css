@@ -11,6 +11,11 @@
   margin: auto 0;
   height: 70px;
 }
+@media (max-width: 688px) {
+  .nav {
+    padding: 0 1rem;
+  }
+}
 
 .nav ul button {
   background-color: rgba(151, 23, 151, 0.853);
@@ -18,11 +23,21 @@
   padding: 0.3rem 1rem;
   border-radius: 10px;
 }
+@media (max-width: 688px) {
+  .nav ul li {
+    display: none;
+  }
+}
 .h1 {
   font-size: 3rem;
   color: orangered;
 }
 
+@media (max-width: 688px) {
+  .h1 {
+    font-size: 2rem;
+  }
+}
 span {
   color: white;
 }

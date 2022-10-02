@@ -11,7 +11,9 @@ const Home = (props) => {
   return (
     <div className={HomeStyle.Home}>
       {show && (
-        <h1 className="text-center my-10">{`Welcome ${receive} how may i help you?`}</h1>
+        <h1
+          className={`text-center mt-3 ${HomeStyle.h1}`}
+        >{`Welcome ${receive} how may i help you?`}</h1>
       )}
 
       {!show && (

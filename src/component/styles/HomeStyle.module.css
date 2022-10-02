@@ -6,5 +6,11 @@
 .Home h1 {
   text-align: center;
   margin: 4rem auto;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 688px) {
+  .Home h1 {
+    font-size: 1rem;
+  }
 }

@@ -8,7 +8,7 @@ const nav = (props) => {
     <div>
       <div className={NavStyle.nav}>
         <h1 className={NavStyle.h1}>
-          chji<span className={NavStyle.span}>oke</span>
+          chiji<span className={NavStyle.span}>oke</span>
         </h1>
         {show && (
           <ul className={`flex ` + NavStyle.ul}>

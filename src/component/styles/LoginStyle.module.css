@@ -1,12 +1,16 @@
 .login {
-  width: 500px;
+  width: 400px;
   margin: 5rem auto;
   border: 2px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 form {
   height: 200px;
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   gap: 1rem;
   display: flex;
@@ -16,14 +20,31 @@ form {
 }
 @media (max-width: 688px) {
   .login {
-    width: 470px;
+    width: 80%;
+    text-align: center;
     border: 2px solid purple;
   }
   form {
-    border: 1px orangered;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  form input {
+    width: 300px;
   }
 }
 
+@media (max-width: 400px) {
+  form input {
+    width: 200px;
+  }
+}
+@media (max-width: 300px) {
+  form input {
+    width: 150px;
+  }
+}
 .name {
   display: flex;
   flex-direction: column;
@@ -38,13 +59,6 @@ input {
   border-radius: 4px;
   padding-left: 1px;
   background-color: purple;
-}
-
-@media (max-width: 688px) {
-  input {
-    width: 340px;
-    border-radius: 4px;
-  }
 }
 
 .button {
